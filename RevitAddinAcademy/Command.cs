@@ -25,8 +25,8 @@ namespace RevitAddinAcademy
             Application app = uiapp.Application;
             Document doc = uidoc.Document;
 
-            TaskDialog.Show("Hello", "This is my first command add-in");
-
+            TaskDialog.Show("Hello", "This is my first command add-in. I just modified it.");
+            TaskDialog.Show("Hello again", "This is another window.");
             return Result.Succeeded;
         }
     }
